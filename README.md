@@ -6,4 +6,8 @@
 
 [Check it out here!](https://jmserv.000webhostapp.com/TypeCombination/ "Type Combination")
 
+##Other Media Links
+
+Check it out on Behance:
+
 [![alt text](https://user-images.githubusercontent.com/44101085/61507159-05098800-a9bb-11e9-8245-de6605be3968.png "Behance Logo")](https://www.behance.net/gallery/83086181/Type-Combination-Showcase-Butler-Libre-Baskerville)
