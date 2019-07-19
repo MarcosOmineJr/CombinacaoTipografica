@@ -1,0 +1,12 @@
+.lb-historia2 p:first-of-type {
+    margin-bottom: 2vh;
+}
+
+.lb-historia2 .img{
+    margin: 0;
+}
+
+.lb-historia2 img {
+    max-width: 20%;
+    max-height: auto;
+}

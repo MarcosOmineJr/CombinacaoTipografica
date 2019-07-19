@@ -1,0 +1,11 @@
+.refbib p {
+    text-indent: 0;
+    font-size: 0.87em;
+    align-self: flex-start;
+}
+.refbib p:nth-child(even){
+    margin-bottom: 2vh;
+}
+.refbib .ref-titulo {
+    font: 1.1em 'Butler-Regular-Black';
+}

@@ -1,0 +1,44 @@
+.screen-wrapper .inicio {
+    background-color: none;
+    background-image: url("bg-inicio.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.inicio .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 17vw 5vh 0;
+}
+.inicio a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+}
+.inicio .underline {
+    margin-top: 0.5vh;
+    height: 0.25vh;
+    width:0;
+    background-color:#000000;
+    transition: width 0.3s ease-out;
+}
+.inicio .underline.highlight {
+    transition: width 0.3s ease-out;
+    width:2.5vw;
+}
+.inicio .flex-container p{
+    font: 2em 'Butler-Regular-Black';
+    padding: 0 0.5vw;
+}
+.flex-container .mouse-icone {
+    max-width: 2vw;
+    max-height: auto;
+}

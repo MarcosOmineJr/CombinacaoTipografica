@@ -1,0 +1,24 @@
+.screen-wrapper .butler-historia1 {
+    padding: 10vh 22vw 0 25vw;
+}
+.img {
+    display:flex;
+    margin-top: 5vh;
+}
+.img figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*butler-historia1*/ figure img {
+    max-width: 15vw;
+    max-height: auto;
+}
+.butler-historia1 figure:nth-child(3) img{
+    max-height: 35vh;
+    max-width: auto;
+}
+.blb-caracteristicas{
+    max-height: auto;
+    max-width: 30vw;
+}

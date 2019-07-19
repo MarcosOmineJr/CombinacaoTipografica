@@ -1,0 +1,36 @@
+.caracteristicas figure img {
+    min-width: 620px;
+    min-height: auto;
+}
+.caracteristicas .img{
+    margin: 0 0 25px 0;
+}
+.abs{
+    position: absolute;
+    font-family: 'Libre-Baskerville-Regular-Regular';
+}
+#butler-contraste{
+    transform: translate(-230px,-3px);
+}
+#butler-serifa{
+    transform: translate(-315px,150px);
+}
+#butler-eixo{
+    transform: translate(30px,150px);
+}
+#butler-terminal{
+    transform: translate(141px,-2px);
+
+}
+#basker-contraste{
+    transform: translate(-240px,-2px);
+}
+#basker-serifa{
+    transform: translate(-325px,147px);
+}
+#basker-eixo{
+    transform: translate(70px,150px);
+}
+#basker-terminal{
+    transform: translate(150px,0px);
+}

@@ -1,0 +1,15 @@
+.baskerville-historia3 .texto-menor{
+    text-indent: 0;
+    font-size: 1em;
+    letter-spacing: 0.17em;
+    margin-top: 2vh;
+}
+
+.baskerville-historia3 .img{
+    margin: 0;
+}
+
+.baskerville-historia3 img {
+    max-width: 20%;
+    max-height: auto;
+}

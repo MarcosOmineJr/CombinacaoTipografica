@@ -1,0 +1,18 @@
+.gotop-button{
+    position: fixed;
+    bottom:0;
+    right:0;
+    padding: 0 3vw 5vh 0;
+    z-index:4;
+    display:none;
+}
+.gotop-button .button-icon {
+    max-height: 12vh;
+    max-width: auto;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+}
+.gotop-button .button-icon:hover {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}

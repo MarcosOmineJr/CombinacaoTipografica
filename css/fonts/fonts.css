@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Butler-Regular-Regular;
+    src: url(butler/butler.woff);
+ }
+ @font-face {
+    font-family: Butler-Regular-Black;
+    src: url(butler/Butler-Black.woff);
+}
+@font-face {
+   font-family: Butler-Regular-Bold;
+   src: url(butler/Butler-Bold.woff);
+}
+@font-face {
+   font-family: Butler-Regular-ExtraBold;
+   src: url(butler/Butler-ExtraBold.woff);
+}
+@font-face {
+   font-family: Butler-Regular-Light;
+   src: url(butler/Butler-Light.woff);
+}
+@font-face {
+   font-family: Butler-Regular-Medium;
+   src: url(butler/Butler-Medium.woff);
+}
+@font-face {
+   font-family: Butler-Regular-UltraLight;
+   src: url(butler/Butler-UltraLight.woff);
+}
+@font-face {
+   font-family: Butler-Stencil-Regular-Regular;
+   src: url(butler/stencil/butlerStencil.woff);
+}
+@font-face {
+   font-family: Butler-Stencil-Regular-Black;
+   src: url(butler/stencil/ButlerStencil-Black.woff);
+}
+@font-face {
+   font-family: Butler-Stencil-Regular-Bold;
+   src: url(butler/stencil/ButlerStencil-Bold.woff);
+}
+@font-face {
+   font-family: Butler-Stencil-Regular-ExtraBold;
+   src: url(butler/stencil/ButlerStencil-ExtraBold.woff);
+}
+@font-face {
+   font-family: Butler-Stencil-Regular-Light;
+   src: url(butler/stencil/ButlerStencil-Light.woff);
+}
+@font-face {
+   font-family: Butler-Stencil-Regular-Medium;
+   src: url(butler/stencil/ButlerStencil-Medium.woff);
+}
+@font-face {
+   font-family: Butler-Stencil-Regular-UltraLight;
+   src: url(butler/stencil/ButlerStencil-UltraLight.woff);
+}
+@font-face {
+   font-family: Libre-Baskerville-Regular-Regular;
+   src: url(libre-baskerville/LibreBaskerville-Regular.otf);
+}
+@font-face {
+   font-family: Libre-Baskerville-Regular-Bold;
+   src: url(libre-baskerville/LibreBaskerville-Bold.otf);
+}
+@font-face {
+   font-family: Libre-Baskerville-Italic-Regular;
+   src: url(libre-baskerville/LibreBaskerville-Italic.otf);
+}

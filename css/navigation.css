@@ -1,0 +1,100 @@
+
+.logo{
+    color: #e6bc53;
+    font: 3em 'Butler-Regular-Black';
+    line-height: 45px;
+}
+.logo-square{
+    position: absolute;
+    margin-top:-47px;
+    margin-left:45px;
+    display: flex;
+    transform: rotate(45deg);
+    font-size: .5em;
+}
+.logo-lb{
+    font-family: 'Libre-Baskerville-Regular-Regular';
+}
+.navigation{
+    position: fixed;
+    display: inline-flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 12vw;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1;
+}
+.navigation .navigation-header {
+    display: flex;
+    flex-direction: column;
+    height:30%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-header .header-logo{
+    max-height: 15vh;
+    max-width: auto;
+}
+.navigation .navigation-ul {
+    display: flex;
+    flex-direction: column;
+    height:30%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-ul .ul-container {
+    display: flex;
+    flex-direction: column;
+    height:80%;
+    width:100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.ul-container .navigation-item {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font: 0.9em 'Butler-Regular-Black';
+}
+.navigation-item .underline {
+    margin-top: 0.5vh;
+    height: 0.25vh;
+    width:0;
+    background-color:#ffcc66;
+    transition: width 0.3s ease-out;
+}
+.navigation-item .underline.highlight {
+    transition: width 0.3s ease-out;
+    width:2.5vw;
+}
+.navigation .navigation-footer {
+    display: flex;
+    flex-direction: column;
+    height:30%;
+    width:100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation-footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height:50%;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 5vh 0;
+}
+
+.footer-container .author {
+    font: 0.9em 'Butler-Regular-Black';
+}
+.footer-container #copyright {
+    font: 0.9em 'Butler-Regular-Black';
+}

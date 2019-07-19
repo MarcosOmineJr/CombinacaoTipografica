@@ -4,9 +4,350 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="icon" href="assets/img/logo.png" type="image/x-icon"/>
+    <title>Combinação Tipográfica</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/gotop-button.css">
+    <link rel="stylesheet" href="css/screens/inicio.css">
+    <link rel="stylesheet" href="css/screens/butler-historia1.css">
+    <link rel="stylesheet" href="css/screens/butler-historia2.css">
+    <link rel="stylesheet" href="css/screens/butler-historia3.css">
+    <link rel="stylesheet" href="css/screens/lb-historia2.css">
+    <link rel="stylesheet" href="css/screens/baskerville-historia3.css">
+    <link rel="stylesheet" href="css/screens/baskerville-historia4.css">
+    <link rel="stylesheet" href="css/screens/caracteristicas.css">
+    <link rel="stylesheet" href="css/screens/aplicacao.css">
+    <link rel="stylesheet" href="css/screens/refbib.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
-    
+    <nav id="navigation" class="navigation">
+        <header class="navigation-header">
+            <h1 class="logo">B<span class="logo-square">■</span><br><span class="logo-lb">LB</span></h1>
+        </header>
+        <ul class="navigation-ul">
+            <div class="ul-container">
+                <li><a class="navigation-item" href="#historia-1"><p>História</p><div class="underline"></div></a></li>
+                <li><a class="navigation-item" href="#caracteristicas-1"><p>Características</p><div class="underline"></div></a></li>
+                <li><a class="navigation-item" href="#aplicacao-1"><p>Aplicação</p><div class="underline"></div></a></li>
+            </div>
+        </ul>
+        <footer class="navigation-footer">
+            <div class="footer-container">
+                <p class="author">Gabriel Baca Rado</p>
+                <p class="author">Marcos Omine Jr</p>
+                <p class="author">Matheus Miranda</p>
+                <p id="copyright">Copyright &copy;</p>
+            </div>
+        </footer>
+    </nav>
+    <article id="content" class="content">
+        <section id="inicio" class="screen-wrapper">
+            <div class="content-screen inicio">
+                <!-- <div class="parallax-window" data-parallax="scroll" data-image-src="assets/img/inicio.png" data-z-index="1"></div> -->
+                <div class="flex-container">
+                    <a id="iniciar" class="botao-iniciar" href="#historia-1"><p>Iniciar</p><div id="initUnderline" class="underline"></div></a>
+                    <img class="mouse-icone" src="assets/img/mouse-icone.png" />
+                </div>
+                <!-- <div class="parallax" ><img src="assets/img/inicio.png" alt=""></div> em teste-->
+            </div>
+        </section>
+        <section id="historia-1" class="screen-wrapper">
+            <div class="content-screen butler-historia1">
+                <div class="content-text">
+                    <h1 class="title">Butler</h1>
+                    <div class="square">■</div>
+                    <p>Butler é uma fonte criada pelo designer gráfico e
+                    motion designer francês Fabian De Smet, com o
+                    objetivo de trazer o modernismo para as fontes
+                    serifadas. Foi inspirada pelas fontes Dala Floda
+                    e Bodoni.</p>
+                    <div class="img">
+                        <figure>
+                            <h2>Butler</h2>
+                            <img src="assets/img/butler-2.png">
+                        </figure>
+                        <figure>
+                            <h2>Butler</h2>
+                            <img src="assets/img/butler-1.png">
+                        </figure>
+                        <figure>
+                            <h2>Dala Floda</h2>
+                            <img src="assets/img/dala-floda.jpg">
+                        </figure>
+                        <figure>
+                            <h2>Bodoni</h2>
+                            <img src="assets/img/bodoni.gif">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="historia-2" class="screen-wrapper">
+            <div class="content-screen butler-historia2">
+                <div class="content-text">
+                    <h1 class="title">Butler</h1>
+                    <div class="square">■</div>
+                    <p>
+                    Tem 14 pesos, 334 caracteres e uma forma stencil alternativa.
+                    </p>
+                    <div class="img">
+                        <figure>
+                            <h2>14 pesos</h2>
+                            <img src="assets/img/butler-pesos.jpg">
+                        </figure>
+                        <figure>
+                            <h2>Stencil</h2>
+                            <img src="assets/img/butler-stencil-1.png">
+                        </figure>
+                        <figure>
+                            <h2>Stencil</h2>
+                            <img src="assets/img/butler-stencil-2.png">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="historia-3" class="screen-wrapper">
+            <div class="content-screen butler-historia3">
+                <div class="content-text">
+                    <h1 class="title">Butler</h1>
+                    <div class="square">■</div>
+                    <h2>O Criador</h2>
+                    <p>Fabian De Smet é designer gráfico e motion designer nascido na França
+                    e formado em Namur, na Bélgica, pela ESIAJ (Haute École Albert Jacquard).</p>
+                    <div class="img img-espacado">
+                        <figure>
+                            <h2>Fabian</h2>
+                            <img src="assets/img/fabian-de-smet-redondo.png">
+                        </figure>
+                        <figure>
+                            <h2>ESIAJ</h2>
+                            <img src="assets/img/Faculdade_Prancheta 1.png">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="historia-4" class="screen-wrapper">
+            <div class="content-screen lb-historia1">
+                <div class="content-text">
+                    <h1 class="title">Libre Baskerville</h1>
+                    <div class="square">■</div>
+                    <p>Libre Baskerville é uma web font criada por Pablo Impallari otimizada para
+                        corpo de texto. É baseada na Baskerville da American Type Founders de 1941
+                        que por sua vez é um resgate da fonte Baskerville, criada no séc. XVIII por
+                        John Baskerville. A Libre Baskerville, quando comparada à sua inspiração, tem
+                        altura-de-x maior, contraformas mais largas e um pouco menos de contraste
+                        para otimizar a leitura em tela.</p>
+                        <div class="img">
+                            <figure>
+                                <h2>Libre Baskerville</h2>
+                                <img src="assets/img/libre-baskerville.gif">
+                            </figure>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="historia-5" class="screen-wrapper">
+                <div class="content-screen lb-historia2">
+                    <div class="content-text">
+                        <h1 class="title">Libre Baskerville</h1>
+                        <div class="square">■</div>
+                        <h2>O Criador</h2>
+                        <p>Pablo Impallari é um designer de fontes autodidata nascido na Argentina.</p>
+                        <p>Sua filosofia é que fontes são seres vivos que continuam se desenvolvendo mesmo
+                            após a morte de seu criador, pois designers contemporâneos continuam seu trabalho,
+                            adaptando as fontes às novas tecnologias.</p>
+                        <div class="img">
+                            <figure>
+                                <h2>Pablo Impallari</h2>
+                                <img src="assets/img/pablo-impallari-redondo.png">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="historia-3" class="screen-wrapper">
+            <div class="content-screen lb-historia3">
+                <div class="content-text">
+                    <h1 class="title">Libre Baskerville</h1>
+                    <div class="square">■</div>
+                    <h2>American Type Founders</h2>
+                    <p>Surgiu em 1892 como uma fusão de outras 23 type foundries e foi
+                        dirigida inicialmente por Morris Fuller Benton. Em 1903 foi fundada
+                        a sede na cidade de Jersey. Encerraram suas atividades no início dos
+                        anos 90.</p>
+                    <div class="img img-espacado">
+                        <figure>
+                            <h2>Selo</h2>
+                            <img src="assets/img/ATF-emblema-redondo.png">
+                        </figure>
+                        <figure>
+                            <h2>Predio</h2>
+                            <img src="assets/img/ATF-1.png">
+                        </figure>
+                        <figure>
+                            <h2>Interior</h2>
+                            <img src="assets/img/ATF-interno-redondo.png">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="historia-6" class="screen-wrapper">
+                <div class="content-screen baskerville-historia1">
+                    <div class="content-text">
+                        <h1 class="title">Baskerville</h1>
+                        <div class="square">■</div>
+                        <p>Desenvolvida no séc. XVIII (por volta de 1750), pelo mestre calígrafo
+                            John Baskerville, sua primeira aparição foi em uma edição de Virgílio,
+                            publicada pelo mesmo.</p>
+                            <div class="img">
+                                <figure>
+                                    <h2>Virgílio</h2>
+                                    <img src="assets/img/bucolica-redondo.png">
+                                </figure>
+                            </div>
+                    </div>
+                </div>
+        </section>
+        <section id="historia-7" class="screen-wrapper">
+                <div class="content-screen baskerville-historia2">
+                    <div class="content-text">
+                        <h1 class="title">Baskerville</h1>
+                        <div class="square">■</div>
+                        <p>Tem mais elementos contrastantes do que quaisquer de suas
+                            predecessoras e precisava de papel e tinta de altíssima qualidade
+                            para revelar seus finíssimos detalhes.</p>
+                        <div class="img">
+                            <figure>
+                                <h2>Publicidade</h2>
+                                <img src="assets/img/baskerville-exemplos.png">
+                            </figure>
+                        </div> 
+                    </div>
+                </div>
+        </section>
+        <section id="historia-8" class="screen-wrapper">
+                <div class="content-screen baskerville-historia3">
+                    <div class="content-text">
+                        <h1 class="title">Baskerville</h1>
+                        <div class="square">■</div>
+                        <h2>O Criador</h2>
+                        <p>John Baskerville nasceu em 1706 em Wolverley, Worcestershire, Inglaterra, foi um mestre calígrafo e impressor inglês. Desenhou diversos tipos puncionados por John Handy, que são a base de todas as fontes que carregam o nome Baskerville atualmente.</p>
+                        <p class="texto-menor">Faleceu em 1775 em Birmingham, Warwickshire, Inglaterra.</p>
+                        <div class="img">
+                            <figure>
+                                <h2>John Baskerville</h2>
+                                <img src="assets/img/john-baskerville-redondo.png">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="historia-9" class="screen-wrapper">
+                <div class="content-screen baskerville-historia4">
+                    <div class="content-text">
+                        <h1 class="title">Baskerville</h1>
+                        <div class="square">■</div>
+                        <p>A excelente qualidade de seus tipos influenciou impressores famosos
+                            como Firmin Didot na frança e Giambattista Bodoni na Itália.</p>
+                        <p>Seus tipos são considerados boas representações do racionalismo e
+                            neoclassicismo do séc. XVIII.</p>
+                        <div class="img img-espacado">
+                            <figure>
+                                <h2>Firmin</h2>
+                                <img src="assets/img/firmin-didot-redondo.png">
+                            </figure>
+                            <figure>
+                                <h2>Giambattista</h2>
+                                <img src="assets/img/giambattista-bodoni-redondo.png">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="caracteristicas-1" class="screen-wrapper">
+                <div class="content-screen caracteristicas">
+                    <div class="content-text">
+                        <h1 class='title'>Butler</h1>
+                        <div class="square">■</div>
+                        <div class="img caracteristicas" width="288px" height="214px">
+                            <figure>
+                                <img src="assets/img/butler-caracteristicas.png">
+                                <div class="abs" id="butler-contraste">Alto Contraste</div>
+                                <div class="abs" id="butler-serifa">Serifas Adnatas</div>
+                                <div class="abs" id="butler-eixo">Eixo Racionalista</div>
+                                <div class="abs" id="butler-terminal">Terminais em Bola</div>
+                            </figure>
+                        </div>
+                        <h1 class='title'>Libre Baskerville</h1>
+                        <div class="square">■</div>
+                        <div class="img caracteristicas">
+                        <figure>
+                            <img src="assets/img/libre-baskerville-caracteristicas.png">
+                            <div class="abs" id="basker-contraste">Médio Contraste</div>
+                            <div class="abs" id="basker-serifa">Serifas Adnatas</div>
+                            <div class="abs" id="basker-eixo">Eixo Levemente Inclinado</div>
+                            <div class="abs" id="basker-terminal">Terminais em Gotas</div>
+                        </figure>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="aplicacao-1" class="screen-wrapper">
+                <div class="content-screen aplicacao">
+                    <div class="content-text">
+                        <h1 class='title'>Butler</h1>
+                        <div class="square">■</div>
+                        <p class="citacao">“É ótima para cartazes, títulos muito grandes, livros e
+                            coisas muito extravagantes […]” (Fabian De Smet)</p>
+                        <h1 class='title'>Libre Baskerville</h1>
+                        <div class="square">■</div>
+                        <p class="citacao">“Baskerville é uma excelente fonte para textos; e suas
+                            formas nítidas e altamente contrastantes fazem com que
+                            também seja adequada para peças publicitárias elegantes.”
+                            (Linotype)</p>
+                    </div>
+                </div>
+        </section>
+        <section class="screen-wrapper">
+                <div class="content-screen refbib">
+                    <div class="content-text">
+                        <h1 class="title">Referências Bibliográficas</h1>
+                        <div class="square">■</div>
+                        <p>DE SMET, Fabian. <span class="ref-titulo">Butler - Typeface</span>. Disponível em: </p><p><a>&lt;http://fabiandesmet.com/portfolio/butler-font/&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                        <p>DE SMET, Fabian. <span class="ref-titulo">Who is this guy anyway ?</span>. Disponível em: </p><p><a>&lt;http://fabiandesmet.com/about/&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                        <p>FONTOWN. <span class="ref-titulo">Pablo Impallari</span>. Disponível em: </p><p><a>&lt;https://www.fontown.com/en/font-designers/pablo-impallari&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                        <p>GOOGLE FONTS. <span class="ref-titulo">Libre Baskerville</span>. Disponível em: </p><p><a>&lt;https://fonts.google.com/specimen/Libre+Baskerville&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                        <p>LINOTYPE. <span class="ref-titulo">Baskerville font family</span>. Disponível em: </p><p><a>&lt;https://www.linotype.com/43255/baskerville-family.html&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                        <p>LINOTYPE. <span class="ref-titulo">Font Designer - American Type Founders</span>. Disponível em: </p><p><a>&lt;https://www.linotype.com/3367/american-type-founders.html&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                        <p>LINOTYPE. <span class="ref-titulo">Font Designer - John Baskerville</span>. Disponível em: </p><p><a>&lt;https://www.linotype.com/702/john-baskerville.html&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                        <p>LINOTYPE. <span class="ref-titulo">Type Gallery - Baskerville</span>. Disponível em: </p><p><a>&lt;https://www.linotype.com/1882/baskerville.html&gt;</a> Acesso em: 24 de Novembro de 2018</p>
+                </div>
+        </section>
+        <section class="screen-wrapper">
+                <div class="content-screen refbib">
+                    <div class="content-text">
+                        <h1 class="title">Referências Bibliográficas</h1>
+                        <div class="square">■</div>
+                        <p>WEST, W. <span class="ref-titulo">History, Topography and Directory of Warwickshire, Inclusive of Some Portions of the Ancient Histories of Rous, Camden, Speed and Dugdale, With Curious
+                            Memoirs of the Lives of These Early English Writers: </span><span class="ref-subtitulo">A Description of the Present State of the County With Its Modern Divisions and Subdivisions, and
+                            Their Population and Valuation; A Directory of Every Town and Considerable Village in the County; A Gazetteer of All Towns, Villages, Parishes and Hamlets, with Their distances from the
+                            principal Market or Post Town, and from London; And an Itinerary of the Direct and Crossroads, With a list of the Noblemen and Gentlemen’s Seats. Illustrated with characteristic etchings
+                            and a map of the county. </span>. Pág. 261. R. Wrightson, Athenaeum. New Street, 1830</p>
+                    </div>
+                </div>
+        </section>
+        <div class="gotop-button">
+            <a href="#"><img class="button-icon" src="assets/img/voltar-icone.png"></a>
+        </div>
+    </article>
 </body>
 </html>
