@@ -6,7 +6,7 @@
 
 [Check it out here!](https://jmserv.000webhostapp.com/TypeCombination/ "Type Combination")
 
-##Other Media Links
+## Other Media Links
 
 Check it out on Behance:
 
